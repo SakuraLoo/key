@@ -1,0 +1,65 @@
+
+html,body{height: 100%;width: 100%;margin:0;padding:0;}
+.loginEle{
+    height: 100%;
+    padding: 0 20px;
+    background-image: url('../images/bg.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+}
+.logoEle{
+    padding-top: 50px;}
+.img{
+    width: 170px;
+    height: 150px;
+  }
+.p{
+    color: #fff;
+  }
+.formEle{
+    margin-top: 10px;
+    padding: 0 15px;
+}
+.formList{
+    margin-top: 20px;
+    background: #fff;
+    padding: 3px 18px;
+    height: 50px;
+    border-radius: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+.iconEle{
+    width: 25px;
+    height: 30px;
+    }
+.splitLine{
+    color: #888;
+  }
+.getNumber{
+    width: 85px;
+    color: #f7bc08;
+  }
+.loginBtnList{
+    background: #0887f7;
+    line-height: 18px;
+    }
+.loginBtn{
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    }
+input{
+    text-indent: 5px;
+    border: none; 
+    height:100%;
+    width:100%;
+    font-size: 15px;
+    background: transparent;
+    flex-grow: 1;
+    }
+input:focus{
+    outline: none;
+}
